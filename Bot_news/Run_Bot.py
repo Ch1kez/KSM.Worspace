@@ -23,8 +23,8 @@ async def check_news_update():
     print('kek')
     while True:
         try:
-            main_InterfaxRu()
-            main_IzRu()
+            # main_InterfaxRu()
+            # main_IzRu()
             main_OilWorldRu()
             main_RbkRu()
             main_RgRu()
@@ -47,6 +47,7 @@ async def check_news_update():
         except Exception:
             print(Exception)
             continue
+
 
 
 if __name__ == '__main__':
