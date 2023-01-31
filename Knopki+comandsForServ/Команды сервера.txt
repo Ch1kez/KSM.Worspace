@@ -22,9 +22,9 @@ ssh ksmadmin@ksmdocker
 Создание виртуального окружения:  python3 -m venv venvName
 Запуск виртуального окружения:    source venvName/bin/activate
 
-Нобходимые библиотеки для работы с ботом: pip install requests wheel pytelegrambotapi lxml beautifulsoup4
+Нобходимые библиотеки для работы с ботом: pip3 install -r requirements.txt
 
-
+pip install requests wheel pytelegrambotapi lxml beautifulsoup4
 pip install matplotlib aiogram Pillow pandas 
 
 
